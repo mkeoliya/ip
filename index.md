@@ -68,7 +68,7 @@ Got it. I've added this task:
  Now you have 2 task(s) in the list.
  ```
  
-  ### `deadline` - Add deadline  
+ ### `deadline` - Add deadline  
 
 This adds an deadline task (denoted by "D") to the list, along with a description of the deadline as well as an ISO date preceded by `/by`. Initially, the todo is marked as "not done." Can be aliased to `d`.
 Example of usage: 
@@ -83,7 +83,7 @@ Got it. I've added this task:
  Now you have 3 task(s) in the list.
  ```
  
-   ### `done` - Mark task as done  
+ ### `done` - Mark task as done  
 
 This marks a pending task (denoted by its 1-based index) as done. Informs the user if a task has already been marked as done, or if the task index supplied does not exist.  
 Example of usage: 
@@ -97,7 +97,8 @@ Nice, I've marked this task as done:
     [T][✓] read book  
  ```
  
-  ### `delete` - Delete a task 
+ 
+ ### `delete` - Delete a task 
 
 This deletes a task(denoted by its 1-based index) as done. Informs the user if the task index supplied does not exist. Can be aliased to `-d`.
 Example of usage: .
@@ -112,7 +113,7 @@ The following task has been removed successfully
 Now you have 2 task(s) in the list. 
  ```
  
-   ### `list` - List all tasks
+ ### `list` - List all tasks
 
 Lists all tasks (along with their pending or done status) currently in the todo-list, itemized by a number (1-based). Can be aliased to `l`.
 Example of usage: 
@@ -126,7 +127,7 @@ Expected outcome:
 [D][X] return book  (at: Oct 17 2020)
  ```
  
-  ### `view` - List all tasks on a particular day
+ ### `view` - List all tasks on a particular day
 
 Lists all tasks (along with their pending or done status) currently in the todo-list, if they are on a particular date supplied by the user. Can be aliased to `v`.
 Example of usage: 
@@ -139,7 +140,8 @@ Expected outcome:
 Here are the tasks on this day in your list:
 1. [E][X] Friday Hacks (at: Oct 15 2020) 
  ```
-  ### `find` - Find all tasks given keywords
+
+### `find` - Find all tasks given keywords
 
 Lists all tasks (along with their pending or done status) currently in the todo-list, if their descriptions match the keywords supplied. Can be aliased to `f`.
 Example of usage: 
@@ -154,6 +156,7 @@ Here are the matching tasks in your list:
 2. [D][✓] return book (by: Oct 17 2020)
  ```
  
+ 
  ### `bye` - Shows exit message
 
 Shows exit message to the user.
@@ -166,9 +169,7 @@ Expected outcome:
 
 `
 Bye. Hope to see you again soon!
- `
-
-
+`
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
